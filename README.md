@@ -1,6 +1,6 @@
 # osex3basicTest
 
-tester for HUJI OS 2020 exercise 3
+tester for HUJI OS 2024 exercise 3
 
 ## Instructions:
 
