@@ -44,7 +44,7 @@ tester for HUJI OS 2024 exercise 3
 
 
    set_property(TARGET MapReduceFramework PROPERTY CXX_STANDARD 11)
-   # to include debugging information, add the flags `-ggdb -g3`, to compile and optimized build add `-O3`
+   # to include debugging information, add the flags `-ggdb -g3`, to compile an optimized build add `-O3`
    target_compile_options(MapReduceFramework PUBLIC -Wall -Wextra)
    target_include_directories(MapReduceFramework PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
    # link pthreads to your framework
